@@ -10,6 +10,6 @@ def scan_addicts2(array)
             results.push 'bien'
         end
     end
-    results # cuidado con el retorno, times retorna la cuenta
+    results 
 end
 print scan_addicts2([120, 90, 600, 30, 90, 10, 200, 180, 500])
